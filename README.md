@@ -1,2 +1,2 @@
 # Knightech
-Soar installation/ electrical installation/ web development 
+Solar installation/ electrical installation/ web development 
