@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" role="img" aria-labelledby="title desc">
+<title id="title">Knightech logo</title><desc id="desc">A vibrant cyan, blue, green and violet KT monogram beside the Knightech wordmark.</desc>
+<defs>
+ <linearGradient id="mark" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#00e5ff"/><stop offset=".38" stop-color="#277cff"/><stop offset=".68" stop-color="#9b5cff"/><stop offset="1" stop-color="#41f0a5"/></linearGradient>
+ <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#55f0ff"/><stop offset=".55" stop-color="#f2f7ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+ <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#glow)" stroke-linejoin="round">
+ <path d="M34 157 L64 34 L100 34 L86 88 L137 34 L181 34 L126 92 L157 157 L116 157 L96 112 L75 132 L69 157 Z" fill="url(#mark)"/>
+ <path d="M128 34 L228 34 L219 67 L186 67 L164 157 L128 157 L150 67 L119 67 Z" fill="url(#mark)"/>
+ <path d="M39 171 L170 171" stroke="#43e9f5" stroke-width="4" opacity=".8"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-weight="800">
+ <text x="246" y="101" font-size="58" letter-spacing="2" fill="url(#word)">KNIGHTECH</text>
+ <text x="250" y="137" font-size="18" letter-spacing="4" fill="#b8cce3">ENERGY  •  ELECTRICAL  •  DIGITAL</text>
+ <text x="250" y="168" font-size="15" letter-spacing="2.1" fill="#55e8bd">POWERING A SMARTER TOMORROW</text>
+</g>
+</svg>
