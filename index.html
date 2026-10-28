@@ -513,20 +513,17 @@
 
 
 
-    /* Service task lists use the matching discipline colour in v10. */
+    /* Service task lists use the matching discipline colour */
     #energyPanel .service-details { color: #168cff; }
     #fabricationPanel .service-details { color: #b45309; }
     #webPanel .service-details { color: #39c95a; }
     #energyPanel .service-details li::marker { color: #168cff; }
     #fabricationPanel .service-details li::marker { color: #b45309; }
     #webPanel .service-details li::marker { color: #39c95a; }
-    /* Welding uses a high-contrast amber in dark mode and a deeper copper in light mode. */
     body:not(.light-mode)[data-theme="dark"] #fabricationPanel .service-details,
     html[data-theme="dark"] #fabricationPanel .service-details { color: #fbbf24; }
     body:not(.light-mode)[data-theme="dark"] #fabricationPanel .service-details li::marker,
     html[data-theme="dark"] #fabricationPanel .service-details li::marker { color: #fbbf24; }
-
-    /* Keep My Approach checklist aqua in light mode. */
     body.light-mode .about-points .check-line,
     body[data-theme="light"] .about-points .check-line,
     html[data-theme="light"] .about-points .check-line { color: #008f9c; }
@@ -556,8 +553,8 @@
         <a class="nav-cta" href="#contact">Get a Quote ↗</a>
       </div>
       <div class="header-meta" aria-label="Quick contact details">
-        <span>✉ <a href="mailto:knightech254@gmail.com">knightech254@gmail.com</a></span>
-        <span>☎ <a href="tel:+254793400801">+254 793 400 801</a></span>
+        <span>📩 <a href="mailto:knightech254@gmail.com">knightech254@gmail.com</a></span>
+        <span>☎️ <a href="tel:+254793400801">+254 793 400 801</a></span>
       </div>
     </nav>
   </header>
@@ -580,8 +577,9 @@
 
         <div class="hero-art" aria-label="Decorative solar energy illustration">
           <div class="art-orbit" aria-hidden="true"></div>
-          <div class="float-tag one">☀ <b>Renewable</b> energy</div>
-          <div class="float-tag two">⌘ <b>Digital</b> solutions</div>
+          <div class="float-tag one">☀️ <b>Renewable</b> energy</div>
+          <div class="float-tag two">🧑🏾‍💻 <b>Digital</b> solutions</div>
+          <div class="float-tag three">🛠️ <b>Welding</b> & Fabrication</div>
           <div class="art-panel">
             <div class="art-panel-top"><span class="art-label">Energy meets technology & fabrication</span><span class="art-chip">KNIGHTECH / 01</span></div>
             <svg class="solar-illustration" viewBox="0 0 440 285" role="img" aria-label="Illustration of a sun shining over solar panels">
@@ -637,7 +635,7 @@
             <span class="path-expand-hint">Tap to expand for easier reading</span>
           </article>
           <article class="service-path-card fabrication" id="fabrication-path" tabindex="0" aria-expanded="false">
-            <div class="path-icon" aria-hidden="true">⚒</div>
+            <div class="path-icon" aria-hidden="true">🛠️</div>
             <p class="eyebrow">Technical services</p>
             <h3>Welding & Fabrication</h3>
             <p class="muted">For clients needing practical metalwork, steel structures, repairs, and custom fabrication.</p>
@@ -651,7 +649,7 @@
             <span class="path-expand-hint">Tap to expand for easier reading</span>
           </article>
           <article class="service-path-card digital" id="web-development" tabindex="0" aria-expanded="false">
-            <div class="path-icon" aria-hidden="true">⌘</div>
+            <div class="path-icon" aria-hidden="true">🧑🏾‍💻</div>
             <p class="eyebrow" style="color:#4ade80">Digital services</p>
             <h3>Web Development</h3>
             <p class="muted">For small businesses, organisations, startups, and individuals who need a professional online presence.</p>
@@ -726,9 +724,9 @@
           <p class="lead">Explore the service areas below. Open each card to see examples of the work and tasks involved.</p>
         </div>
         <div class="service-switch reveal" role="group" aria-label="Choose a service category">
-          <button class="switch-btn" type="button" data-panel="energyPanel" aria-pressed="true">☀ Solar & Electrical Installation</button>
-          <button class="switch-btn" type="button" data-panel="fabricationPanel" aria-pressed="false">⚒ Welding & Fabrication</button>
-          <button class="switch-btn" type="button" data-panel="webPanel" aria-pressed="false">⌘ Web Development</button>
+          <button class="switch-btn" type="button" data-panel="energyPanel" aria-pressed="true">⚡ Solar & Electrical Installation</button>
+          <button class="switch-btn" type="button" data-panel="fabricationPanel" aria-pressed="false">🛠️ Welding & Fabrication</button>
+          <button class="switch-btn" type="button" data-panel="webPanel" aria-pressed="false">🧑🏾‍💻 Web Development</button>
         </div>
         <div class="service-panel" id="energyPanel">
           <div class="service-grid">
@@ -922,36 +920,37 @@
           </div>
         </div>
         <div class="photo-showcase single-slides">
-          <section class="photo-row reveal" aria-label="☀ Solar & Renewable Energy image slideshow"><div class="photo-row-head"><div><h3>☀ Solar & Renewable Energy</h3><p>PV arrays, rooftop installations, and clean-energy systems.</p></div><span class="tag">5 photos provided</span></div><div class="single-slide" data-slideshow>
-            <figure class="slide-card active"><img src="images/solar_01.jpg" alt="solar mounting illustration"><figcaption class="photo-caption">solar mounting<small>solar installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/solar_02.jpg" alt="solar structure illustration"><figcaption class="photo-caption">solar structure<small>Solar installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/solar_03.jpg" alt="Tools &amp; Equipment illustration"><figcaption class="photo-caption">structure mounting<small>Solar installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/solar_04.jpg" alt="solar mounting illustration"><figcaption class="photo-caption">solar mounting<small>Solar installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/solar_05.jpg" alt="battery stack illustration"><figcaption class="photo-caption">Battery stack<small>Solar installation</small></figcaption></figure>
+          <section class="photo-row reveal" aria-label="🔆 Solar & Renewable Energy image slideshow"><div class="photo-row-head"><div><h3>☀ Solar & Renewable Energy</h3><p>PV arrays, rooftop installations, and clean-energy systems.</p></div><span class="tag">5 photos provided</span></div><div class="single-slide" data-slideshow>
+            <figure class="slide-card active"><img src="solar_01.jpg" alt="solar mounting illustration"><figcaption class="photo-caption">solar mounting<small>solar installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="solar_02.jpg" alt="solar structure illustration"><figcaption class="photo-caption">solar structure<small>Solar installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="solar_03.jpg" alt="Tools &amp; Equipment illustration"><figcaption class="photo-caption">structure mounting<small>Solar installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="solar_04.jpg" alt="solar mounting illustration"><figcaption class="photo-caption">solar mounting<small>Solar installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="solar_05.jpg" alt="battery stack illustration"><figcaption class="photo-caption">Battery stack<small>Solar installation</small></figcaption></figure>
             <div class="slide-controls"><button type="button" class="slide-prev" aria-label="Previous picture">‹</button><span class="slide-count">1 / 1</span><button type="button" class="slide-next" aria-label="Next picture">›</button></div></div></section>
           <section class="photo-row reveal" aria-label="⚡ Electrical Systems image slideshow"><div class="photo-row-head"><div><h3>⚡ Electrical Systems</h3><p>Building installations, wiring, tools, and technical work.</p></div><span class="tag">5 photos provided</span></div><div class="single-slide" data-slideshow>
-            <figure class="slide-card active" ><img src="images/electrical_01.jpg" alt="Electrical Installation illustration"><figcaption class="photo-caption">Electrical Installation<small>Electical Installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/electrical_02.jpg" alt="Wiring &amp; Components illustration"><figcaption class="photo-caption">Wiring &amp; Components<small>Electical Installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/electrical_03.jpg" alt="Tools &amp; Equipment illustration"><figcaption class="photo-caption">Tools &amp; Equipment<small>Electical Installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/electrical_04.jpg" alt="Technical Systems illustration"><figcaption class="photo-caption">Technical Systems<small>Electical Installation</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/electrical_05.jpg" alt="Technical Systems illustration"><figcaption class="photo-caption">High-master Systems<small>Electical Installation</small></figcaption></figure>
+            <figure class="slide-card active" ><img src="electrical_01.jpg" alt="Electrical Installation illustration"><figcaption class="photo-caption">Electrical Installation<small>Electical Installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="electrical_02.jpg" alt="Wiring &amp; Components illustration"><figcaption class="photo-caption">Wiring &amp; Components<small>Electical Installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="electrical_03.jpg" alt="Tools &amp; Equipment illustration"><figcaption class="photo-caption">Tools &amp; Equipment<small>Electical Installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="electrical_04.jpg" alt="Technical Systems illustration"><figcaption class="photo-caption">Technical Systems<small>Electical Installation</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="electrical_05.jpg" alt="Technical Systems illustration"><figcaption class="photo-caption">High-master Systems<small>Electical Installation</small></figcaption></figure>
             <div class="slide-controls"><button type="button" class="slide-prev" aria-label="Previous picture">‹</button><span class="slide-count">1 / 4</span><button type="button" class="slide-next" aria-label="Next picture">›</button></div></div></section>
-          <section class="photo-row reveal" aria-label="⚒ Welding & Fabrication image slideshow"><div class="photo-row-head"><div><h3>⚒ Welding & Fabrication</h3><p>Custom steelwork, roof structures, gates, brackets, and fabricated solar mounting supports.</p></div><span class="tag">5 image slots</span></div><div class="single-slide" data-slideshow>
-            <figure class="slide-card active"><img src="images/fabrication_01.jpg" alt="Welding and fabrication workshop reference"><figcaption class="photo-caption">Welding and assembly<small>Metal fabrication</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/fabrication_02.jpg" alt="Fabricated roof trusses and steel frames"><figcaption class="photo-caption">Roof trusses and frames<small>Structural steelwork</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/fabrication_03.jpg" alt="Steel gates and security metalwork"><figcaption class="photo-caption">Gates and security metalwork<small>Custom fabrication</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/fabrication_04.jpg" alt="Solar panel mounting support structure fabrication"><figcaption class="photo-caption">Solar mounting supports<small>PV structure fabrication</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/fabrication_05.jpg" alt="Metal brackets and support plates"><figcaption class="photo-caption">Brackets and support plates<small>Cutting, drilling and finishing</small></figcaption></figure>
+          <section class="photo-row reveal" aria-label="🛠️ Welding & Fabrication image slideshow"><div class="photo-row-head"><div><h3>⚒ Welding & Fabrication</h3><p>Custom steelwork, roof structures, gates, brackets, and fabricated solar mounting supports.</p></div><span class="tag">5 image slots</span></div><div class="single-slide" data-slideshow>
+            <figure class="slide-card active"><img src="fabrication_01.jpg" alt="Welding and fabrication workshop reference"><figcaption class="photo-caption">Welding and assembly<small>Metal fabrication</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="fabrication_02.jpg" alt="Fabricated roof trusses and steel frames"><figcaption class="photo-caption">Roof trusses and frames<small>Structural steelwork</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="fabrication_03.jpg" alt="Steel gates and security metalwork"><figcaption class="photo-caption">Gates and security metalwork<small>Custom fabrication</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="fabrication_04.jpg" alt="Solar panel mounting support structure fabrication"><figcaption class="photo-caption">Solar mounting supports<small>PV structure fabrication</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="fabrication_05.jpg" alt="Metal brackets and support plates"><figcaption class="photo-caption">Brackets and support plates<small>Cutting, drilling and finishing</small></figcaption></figure>
             <div class="slide-controls"><button type="button" class="slide-prev" aria-label="Previous picture">‹</button><span class="slide-count">1 / 5</span><button type="button" class="slide-next" aria-label="Next picture">›</button></div></div></section>
-          <section class="photo-row reveal" aria-label="⌘ Web Development & Digital Design image slideshow"><div class="photo-row-head"><div><h3>⌘ Web Development & Digital Design</h3><p>Websites, frontend coding, and digital interfaces.</p></div><span class="tag">5 photos provided</span></div><div class="single-slide" data-slideshow>
-            <figure class="slide-card active"><img src="images/web_01.jpg" alt="coding illustration"><figcaption class="photo-caption">coding<small>digital skills</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/web_02.jpg" alt="programming illustration"><figcaption class="photo-caption">programming<small>Digital skills</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/web_03.jpg" alt="debuging illustration"><figcaption class="photo-caption">debuging<small>Digital skills</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/web_04.jpg" alt="website development illustration"><figcaption class="photo-caption">website development<small>Digital skills</small></figcaption></figure>
-            <figure class="slide-card" aria-hidden="true"><img src="images/web_05.jpg" alt="lab set-up illustration"><figcaption class="photo-caption">lab set-up<small>Digital skills</small></figcaption></figure>
+          <section class="photo-row reveal" aria-label="🧑🏾‍💻 Web Development & Digital Design image slideshow"><div class="photo-row-head"><div><h3>⌘ Web Development & Digital Design</h3><p>Websites, frontend coding, and digital interfaces.</p></div><span class="tag">5 photos provided</span></div><div class="single-slide" data-slideshow>
+            <figure class="slide-card active"><img src="web_01.jpg" alt="coding illustration"><figcaption class="photo-caption">coding<small>digital skills</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="web_02.jpg" alt="programming illustration"><figcaption class="photo-caption">programming<small>Digital skills</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="web_03.jpg" alt="debuging illustration"><figcaption class="photo-caption">debuging<small>Digital skills</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="web_04.jpg" alt="website development illustration"><figcaption class="photo-caption">website development<small>Digital skills</small></figcaption></figure>
+            <figure class="slide-card" aria-hidden="true"><img src="web_05.jpg" alt="lab set-up illustration"><figcaption class="photo-caption">lab set-up<small>Digital skills</small></figcaption></figure>
             <div class="slide-controls"><button type="button" class="slide-prev" aria-label="Previous picture">‹</button><span class="slide-count">1 / 1</span><button type="button" class="slide-next" aria-label="Next picture">›</button></div></div></section>
         </div>
-        <p class="project-disclaimer">The four electrical photos you supplied are included. Replace the solar and web placeholders with your own photos, and add more slides by copying a slide-card block in the HTML.</p>
+        <p class="project-disclaimer">The projects, images, and descriptions displayed on this website are intended to showcase Knightech’s skills, technical knowledge, and capabilities in solar and electrical installation, web development, and welding and fabrication. Some content may be illustrative or used for demonstration purposes and may not represent completed client projects. Actual project results, costs, timelines, and technical requirements may vary depending on the project scope, site conditions, materials, and client specifications. All projects are subject to proper assessment, agreed terms, applicable safety standards, and relevant regulatory requirements. Knightech strives to provide reliable, quality-focused services but does not guarantee identical results across different projects. Clients are encouraged to contact us for a consultation, quotation, and project-specific assessment before making any commitments.
+© Knightech. All rights reserved.</p>
       </div>
     </section>
 
