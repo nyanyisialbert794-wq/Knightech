@@ -32,11 +32,21 @@
     }
     body.light-mode {
       color-scheme: light;
-      --bg: #f7f7f8; --bg-deep: #ffffff; --surface: rgba(255,255,255,.96);
-      --surface-solid: #ffffff; --surface-soft: rgba(239,240,242,.96);
-      --text: #191a1c; --muted: #555b64; --line: rgba(55,60,68,.18);
-      --cyan: #c92f37; --blue: #1769c2; --green: #168344; --purple: #7455a8;
-      --gold: #926b1b; --red: #c92f37; --metal: #626970;
+      --bg: #f7f7f8;
+      --bg-deep: #ffffff;
+      --surface: rgba(255,255,255,.96);
+      --surface-solid: #ffffff;
+      --surface-soft: rgba(239,240,242,.96);
+      --text: #191a1c;
+      --muted: #555b64;
+      --line: rgba(55,60,68,.18);
+      --cyan: #c92f37;
+      --blue: #1769c2;
+      --green: #168344;
+      --purple: #7455a8;
+      --gold: #926b1b;
+      --red: #c92f37;
+      --metal: #626970;
       --shadow: 0 18px 48px rgba(20,25,30,.1);
     }
     body.light-mode .site-header { background: rgba(255,255,255,.92); border-color: var(--line); }
@@ -1006,13 +1016,13 @@
             <p class="muted">For solar and electrical work, website projects, collaboration, or general enquiries.</p>
             <div class="contact-methods">
               <a class="contact-method" href="mailto:knightech254@gmail.com">
-                <span class="icon-box" aria-hidden="true">✉</span><span><small>Email</small><strong>knightech254@gmail.com</strong></span>
+                <span class="icon-box" aria-hidden="true">📩</span><span><small>Email</small><strong>knightech254@gmail.com</strong></span>
               </a>
               <a class="contact-method" href="tel:+254793400801">
-                <span class="icon-box" aria-hidden="true">☎</span><span><small>Phone</small><strong>0793 400 801</strong></span>
+                <span class="icon-box" aria-hidden="true">☎️</span><span><small>Phone</small><strong>0793 400 801</strong></span>
               </a>
               <a class="contact-method" href="https://wa.me/254793400801" target="_blank" rel="noopener noreferrer">
-                <span class="icon-box" aria-hidden="true">◉</span><span><small>WhatsApp</small><strong>Chat with Knightech</strong></span>
+                <span class="icon-box" aria-hidden="true">🗨️</span><span><small>WhatsApp</small><strong>Chat with Knightech</strong></span>
               </a>
             </div>
             <p class="contact-cta">Prefer a direct message? Use WhatsApp and briefly describe the service you need.</p>
@@ -1055,7 +1065,7 @@
         <div><a class="brand" href="#home"><img class="brand-logo" src="knightech-logo-light.png" data-logo-light="knightech-logo-light.png" data-logo-dark="knightech-logo-dark.png" alt="Knightech — Energy, Electrical, Fabrication and Digital Solutions"></a><p class="footer-tagline" style="margin-top:15px">Powering practical ideas with clean energy, dependable electrical work, and modern digital solutions.</p><p>Based in Kenya · Working with clients by project scope.</p></div>
         <div><h4>Explore</h4><a href="#about">About Albert</a><a href="#services">Services & capabilities</a><a href="#projects">Portfolio showcase</a><a href="#skills">Technical toolkit</a><a href="#process">How I work</a></div>
         <div><h4>Services</h4><a href="#services" data-service-link="Solar installation / PV">Solar & renewable energy</a><a href="#services" data-service-link="Electrical installation">Electrical installation</a><a href="#services" data-service-link="Welding & fabrication">Welding & fabrication</a><a href="#services" data-service-link="Website development">Website development</a><a href="#services" data-service-link="Website updates / maintenance">Website maintenance</a><a href="#contact">Request a quote</a></div>
-        <div><h4>Contact Knightech</h4><a href="mailto:knightech254@gmail.com">✉ knightech254@gmail.com</a><a href="tel:+254793400801">☎ +254 793 400 801</a><a href="https://wa.me/254793400801" target="_blank" rel="noopener noreferrer">◉ WhatsApp chat</a><p>Replies and project timing are confirmed individually.</p></div>
+        <div><h4>Contact Knightech</h4><a href="mailto:knightech254@gmail.com">📩 knightech254@gmail.com</a><a href="tel:+254793400801">☎️ +254 793 400 801</a><a href="https://wa.me/254793400801" target="_blank" rel="noopener noreferrer">🗨️ WhatsApp chat</a><p>Replies and project timing are confirmed individually.</p></div>
       </div>
       <div class="footer-bottom"><p class="copyright">© <span id="year"></span> Knightech · Albert Nyanyisi. All rights reserved.</p><div class="footer-links"><a href="#home">Back to top ↑</a><a href="#contact">Privacy-conscious enquiries</a><a href="mailto:knightech254@gmail.com">Email us</a></div></div>
     </div>
@@ -1070,7 +1080,7 @@
     function updateThemeButton() {
       if (!themeToggle) return;
       const light = document.body.classList.contains('light-mode');
-      themeToggle.textContent = light ? '☀' : '☾';
+      themeToggle.textContent = light ? '☀️' : '🌛';
       themeToggle.setAttribute('aria-label', light ? 'Light mode active. Switch to dark mode' : 'Dark mode active. Switch to light mode');
       themeToggle.setAttribute('title', light ? 'Light mode — switch to dark mode' : 'Dark mode — switch to light mode');
       // Use a transparent logo variant with text colors suited to the active theme.
